@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DETRAN</title>
+</head>
+<body>
+    <h1>Avaliador de Multas</h1>
+    Informe a velocidade do veículo em Km/H <input type="number" name="txtvel" id="txtvel">
+    <input type="button" value="Verificar" id="check"> 
+    <div id="res"></div>
+    
+    <script>
+        var vel = window.document.getElementById('txtvel')
+        var limite = 60
+        var res = window.document.getElementById('res')
+        var check = window.document.getElementById ('check')
+        check.addEventListener('click', avaliar)
+
+        function avaliar() {
+            var vel1 = Number(vel.value)
+
+            if (vel1 > limite){
+                res.innerText = `Você está acima da velocidade permitida`
+            }
+
+            else if (vel1 == limite){
+                res.innerText = `Você está nos limites da pista`
+            }
+
+            else {
+                res.innerText = `Acelera esse carrinho, Marcos, que tem limite ainda pra gastar!`
+            }
+        }
+
+    </script>
+</body>
+</html>

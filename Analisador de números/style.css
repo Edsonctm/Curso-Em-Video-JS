@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+*{
+    border:0px;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(91, 126, 243);
+    font: normal 15pt Arial;
+}
+
+header {
+    color: white;
+    text-align: center;
+
+}
+
+section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+#digite {
+    display: inline-block;
+    font-size: 0.8em;
+}
+
+#numero{
+    border: 2px solid black;
+    width: 80px;
+    height: 1.3em;
+    border-radius: 5px;
+    color: rgb(192, 192, 192);
+}
+
+#incluir {
+    width: 50px;
+    height: 1.3em;
+    border: 1px solid rgb(100, 100, 100);
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.404);
+}
+
+#adicionados {
+    border: 2px solid black;
+    width: 250px;
+    height: 150px;
+    border-radius: 5px;
+    background-color: rgb(238, 238, 238);
+    font-size: 0.7em;
+    margin: 10px 0px;
+    padding: 5px 0px 0px 5px;
+    overflow: hidden;
+}
+
+#finalizar {
+    width: 55px;
+    height: 1.3em;
+    border: 1px solid rgb(100, 100, 100);
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.404);
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+    margin: 20px 0px;
+    
+}
